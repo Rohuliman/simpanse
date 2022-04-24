@@ -22,14 +22,14 @@
                         <h5 class="text-center"> <span class="font-weight-bold text-primary">LOGIN TO YOUR ACCOUNT</span></h5>
                     </div>
                     <div class="card-body">
-                        <form action="<?=BASEURL;?>" method="post">
+                        <form action="<?=BASEURL;?>/log/login" method="post">
                             <div class="form-group">
                                 <label for="username">Username</label>
-                                <input type="text" name="username" class="form-control" placeholder="Username" required>
+                                <input type="username" class="form-control" placeholder="username" name="username"  required>
                             </div>
                             <div class="form-group">
                                 <label for="password">Password</label>
-                                <input type="password" name="password" class="form-control" placeholder="Password" required>
+                                <input type="password"  class="form-control" placeholder="password" name="password" required>
                             </div>
                             <div class="form-group">
                                 <button type="submit" name="login" value="login" class="btn btn-primary btn-block">Login</button>

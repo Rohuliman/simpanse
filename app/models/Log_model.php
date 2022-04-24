@@ -3,6 +3,7 @@
 class Log_model
 {
      private $db;
+     private $table='users';
 
      public function __construct()
     {
@@ -11,11 +12,11 @@ class Log_model
     
     public function getLogin($username, $password) 
     {
-        $this->db-> query("SELECT*FROM  WHERE username = :username, password= :password");
-        $this->db-> bind('username', $username);
-        $this->db-> bind('password', $password);
+        $this->db->query("SELECT * FROM users WHERE username =:username, password =:password" );
+        $this->db->bind('username',$username);
+        $this->db->bind('password',$password);
         return $this->db->resultSet();
-
+ 
     }
     
 }

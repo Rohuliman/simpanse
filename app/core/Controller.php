@@ -1,16 +1,15 @@
 <?php
 
-class Controller {
+class Controller 
+{
     public function view($view, $data = [])
-    {
-        
-        if (!isset($_SESSION ['login'])) {
-            require_once '../app/view/login/index.php';
-        } else 
         {
-        require_once '../app/view/' . $view . '.php';
-    } 
-}
+            
+                require_once '../app/view/' . $view . '.php';
+            }
+
+        
+
 public function model($model)
 {
     require_once '../app/models/'.$model.'.php';

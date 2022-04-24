@@ -19,7 +19,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand fw-bold" href="<?=BASEURL;?>">
-    <img src="img/download2.png" alt="" width="30" height="24"> Sistem Monitoring Sensor Gempa </a>
+    <img src="img/download2.png" alt="" width="30" height="24"> SIMPANSE </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -37,7 +37,10 @@
               <a class="nav-link text-black fw-bold" href="<?=BASEURL;?>/pengaduan">Pengaduan</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-black fw-bold" href="<?=BASEURL;?>/login">Logout</a></a>
+              <a class="nav-link text-black fw-bold" href="<?=BASEURL;?>/peta">Peta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black fw-bold" href="<?=BASEURL;?>/log">Logout</a></a>
             </li>
           </ul>
         </div>
