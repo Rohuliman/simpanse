@@ -1,4 +1,5 @@
 <?php
+namespace app/core;
 
 class Database {
     private $host       = DB_HOST;
