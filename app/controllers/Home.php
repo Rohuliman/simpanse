@@ -1,5 +1,10 @@
 <?php
-
+namespace app/Controller
+    
+    use app/core;
+use app/model;
+use app/config;
+    
 class Home extends Controller {
     public function index()
     {
