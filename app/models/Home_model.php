@@ -1,7 +1,11 @@
 <?php
 
 class Home_model {
- 
+ namespace App/models
+    
+    use Exceptipon;
+use app/core;
+use app/ccore/database;
 
     private $table = 'sla';
     private $db;
