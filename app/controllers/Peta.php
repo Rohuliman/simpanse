@@ -1,6 +1,11 @@
 <?php
+namespace app/Controller
+    
+    use app/core;
+use app/model;
+use app/config;
 
-class Peta extends Controller {
+class Peta extends core/Controller {
     public function index()
     {
         $data['judul']= 'home';
