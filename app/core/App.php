@@ -1,5 +1,12 @@
 <?php
+namespace App/core;
+use Exception;
+use Class;
+use Method;
+use app/core;
+use app/core/database;
 
+u
 class App {
 
     protected $controller = 'Home';
