@@ -1,6 +1,11 @@
 <?php
+namespace app/Controller
+    
+    use app/core;
+use app/model;
+use app/config;
 
-class pengaduan extends Controller {
+class pengaduan extends core/Controller {
     public function index()
     {
 
