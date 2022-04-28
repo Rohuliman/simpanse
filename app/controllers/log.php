@@ -1,5 +1,10 @@
 <?php
-class log extends Controller {
+namespace app/Controller
+    
+    use app/core;
+use app/model;
+use app/config;
+class log extends core/Controller {
     public function index()
     {
 
