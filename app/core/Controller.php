@@ -1,8 +1,5 @@
 <?php
-namespace app/core;
 
-use app/core;
-use app/database;
 
 class Controller 
 {
