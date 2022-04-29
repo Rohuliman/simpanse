@@ -42,6 +42,7 @@
         <td><?= number_format($sla['anggaran'],0); ?></td>
         <td><?= number_format($sla['totall'],0); ?></td>
         <td><?=  round ($sla['anggaran']/$sla['totall']*100); ?>%</td>
+        <td><a href="<?= BASEURL; ?>/Home/hapus/<?= $sla['id'];?>" onclick="return confirm('yakin?')"><i class="fa fa-trash" style="color: red;"></i></a></td>
       </tr>
       <?php endforeach; ?>
     </tbody>

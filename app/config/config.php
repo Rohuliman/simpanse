@@ -1,7 +1,7 @@
 <?php
 
 
-define('BASEURL', 'http:/PKL_WEB_BMKG/public');
+define('BASEURL', 'http:/simpanse/public');
 
 // DB
 define('DB_HOST', 'localhost');
