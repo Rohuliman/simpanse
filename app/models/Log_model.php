@@ -1,8 +1,5 @@
 <?php
-namespace App/models
-     use Exception;
-use App/models;
-     use app/core/database;
+
 class Log_model
 {
      private $db;
