@@ -1,7 +1,7 @@
 <?php
 
 
-define('BASEURL', 'http:/simpanse/public');
+define('BASEURL', 'https:/simpanse/public');
 
 // DB
 define('DB_HOST', 'localhost');
