@@ -1,12 +1,7 @@
 <?php
 
-use app/core;
-use app/model;
-use app/config;
 
-
-
-class About extends Core/Controller {
+class About extends Controller {
     public function index($nama = 'rohul', $pekerjaan = 'iman', $umur = '20')
     {
         $data ['nama'] = $nama;
