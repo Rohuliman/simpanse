@@ -15,7 +15,7 @@
         }
         
         #map {
-            height: 80vh;
+            height: 90vh;
             width: 100%;
         }
         
@@ -45,7 +45,7 @@
 <script type="text/javascript">
     let map = L.map('map').setView([-8.579782480849136, 116.09596880340064], 9);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> '
     }).addTo(map);
 
     
@@ -53,7 +53,7 @@
     iconUrl: 'img/Square_8.png',
     iconSize:     [30, 50], // size of the icon
 });
-    L.marker([-7.0412, 113.916], {icon: greenIcon}).bindPopup("<b></b><a href='https://geof.bmkg.go.id/slmon/IA_KMMI.html'</a>KMMI"). addTo(map);
+    L.marker([-7.0412, 113.916], {icon: greenIcon}).bindPopup("<b>Detail</b><a href='https://geof.bmkg.go.id/slmon/IA_KMMI.html'</a>KMMI, <a href='https://t.me/rohulim17'</a>Telegram"). addTo(map);
     L.marker([-8.2732, 113.444], {icon: greenIcon}).bindPopup("<b></b><a href='https://geof.bmkg.go.id/slmon/IA_GMJI.html'</a>GMJI"). addTo(map);
     L.marker([-8.4703, 114.152], {icon: greenIcon}).bindPopup("<b></b><a href='https://geof.bmkg.go.id/slmon/IA_JAGI.html'</a>JAGI"). addTo(map);
     L.marker([-8.2140, 114.356], {icon: greenIcon}).bindPopup("<b></b><a href='https://geof.bmkg.go.id/slmon/IA_BYJI.html'</a>BYJI"). addTo(map);
